@@ -3,46 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>doodle</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Google page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="header">
+
+    <header class="header">
         <ul>
-            <a href="http://127.0.0.1:5500/index.html">Über Google</a> 
-            <a href="http://127.0.0.1:5500/index.html">Store</a> 
-            <a href="http://127.0.0.1:5500/index.html">Gmail</a> 
-            <a href="http://127.0.0.1:5500/index.html">Bilder</a> 
-            <a href="http://127.0.0.1:5500/index.html"><img src="https://img.icons8.com/ios-filled/72/squared-menu.png" width="16" height="16"></a>
-            <a href="http://127.0.0.1:5500/index.html"><img src="https://img.icons8.com/ios-glyphs/72/person-male.png" width="16" height="16"></a>
+            <li><a href="">Über Google</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Gmail</a></li>
+            <li class="up_right"><a href="">Bilder</a></li>
+            <li class="square_button"><a href="">Square</a></li>
+            <li><a href="">Profile</a></li>
         </ul>
-    </div>
+    </header>
 
-    
-    <img src='https://www.google.com/logos/doodles/2020/teachers-day-2020-october-05-6753651837108570-l.png'/>
-    <button><img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/13373387441535008768-512.png" width="16" height="16"></button>
-    <input type="text">
-    <div>
-        <button>Google Suche</button>
-        <button>Auf gut Gluck</button>
-    </div>
-    <div>
-        <h5>Google Angebone Auf:<a href="http://127.0.0.1:5500/index.html">  English  </a><a href="http://127.0.0.1:5500/index.html">  Română</a></h5>
-    </div>
-    
-    <footer id='footer'>
-        <h4>Deutschland</h4>
-        <ol>
-            <h4><a href="http://127.0.0.1:5500/index.html">Weberprogramme</a></h4>
-            <h4><a href="http://127.0.0.1:5500/index.html">Unternehmen</a></h4>
-            <h4><a href="http://127.0.0.1:5500/index.html">Wie funktioniert die Google Suche</a></h4>
-            <h4><a href="http://127.0.0.1:5500/index.html">Datenschutzerklärung</a></h4>
-            <h4><a href="http://127.0.0.1:5500/index.html">Nutzungsbedingungen</a></h4>
-            <h4><a href="http://127.0.0.1:5500/index.html">Einstellungen</a></h4>
-        </ol>
+    <main class="content">
+        <div id="logo">
+            <img src="https://www.google.com/logos/doodles/2020/teachers-day-2020-october-05-6753651837108570-l.png" alt="Google Logo">
+        </div>
+        <div id="search_bar">
+            <button id="magnifier"></button>
+            <input type="search">
+        </div>
+        <div id="buttons">
+            <ul>
+                <li><button>Google Suche</button></li>
+                <li><button>Auf Gut Glück!</button></li>
+            </ul>
+        </div>
+        <div class="language">
+            <ul>
+                <li>Google angeboten auf:</li>
+                <li><a href="">English</a></li>
+                <li><a href="">Română</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class=" footer">
+        <ul>
+            <li id="deutsch">Deutschland</li>
+        </ul>
+        <ul>
+            <li><a href="">Werberprogramme</a></li>
+            <li><a href="">Unternehmen</a></li>
+            <li><a href="">Wie funktioniert die Google Suche?</a></li>
+            <li class="down_right"><a href="">Datenschutzerklärung</a></li>
+            <li><a href="">Nutzungsbedingungen</a></li>
+            <li><a href="">Einstellungen</a></li>
+        </ul>
     </footer>
-    
 
-       
 </body>
 </html>
