@@ -1,1 +1,1 @@
-I am trying to learn all this js things, we will see.
+I am creating a clone of google homepage.
