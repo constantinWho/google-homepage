@@ -1,32 +1,35 @@
-body {
-    
-}
-.up-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0 15px;
-    margin: 26px 5px;
-}
-.up-right {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 10px 5px;
-    padding: 0 15px;
+.container {
+    display: flex;
+    align-items: center;
 }
 
 a {
-    text-decoration: none;
     color: #000;
     opacity: 0.75;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    padding: 5px;
-    
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    cursor: auto;
+    padding: 15px;
 }
 
-img {
+.gmail {
+    margin-left: auto;
+}
+
+#avatar {
+    height: 32px;
+    font-weight: 32px;
     border-radius: 50%;
+}
+
+#box {
+    height: 15px;
+    font-weight: 15px;
+}
+
+#box:hover {
+    height: 15px;
+    font-weight: 15px;
+    content: url("apps-3.png");
 }
