@@ -1,3 +1,13 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
 .container {
     display: flex;
     align-items: center;
@@ -17,7 +27,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.gmail {
+.split {
     margin-left: auto;
 }
 
@@ -38,6 +48,9 @@ a:hover {
     content: url("apps-3.png");
 }
 
+main {
+    flex-grow: 1;
+}
 #logo {
     padding-top: 50px;
     display: block;
@@ -68,7 +81,7 @@ input:focus {
 }
 
 .search-bar:hover {
-    box-shadow:1px 1px 10px grey; 
+    box-shadow:1px 1px 5px grey; 
 }
 
 .buttons {
@@ -97,4 +110,15 @@ button:hover {
     margin-left: 30px;
     text-align: left;
     
+}
+
+footer {
+    padding: 15px;
+    font-size: 15px;
+    background: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+
+header, main, footer {
+    flex-shrink: 0;
 }
