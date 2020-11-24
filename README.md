@@ -1,1 +1,1 @@
-I am creating a clone of google homepage.
+I created the google page clone by using html and css. This project was created with my knowledge I accumulated through learning from TOR resources.
